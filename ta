@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>于俊骜的助教工作</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="title" align="center"><strong class="title">于俊骜的个人主页</strong>
+  <table width="800" border="0">
+    <tr>
+	  <td style="border: 0px" width="168" height="31" class="table"><div align="center"><a href="index.html">个人简介</a></div></td>
+	  <td style="border: 0px" width="168" class="table"><div align="center"><a href="education.html">学习经历</a></div></td>
+	  <td style="border: 0px" width="168" class="table"><div align="center"><strong>助教工作</strong></div></td>
+<td style="border: 0px" class="table"><div align="center"><a href="ta_en.html">English Version</a></div></td>
+    </tr>
+	</table>
+	</div>
+<hr>
+<div class="text">
+<p class="table"><strong>助教经历 :</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2023 秋 数学分析(B1)，授课老师：汪琥庭.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2024 春 数学分析(B2)，授课老师：汪琥庭.</p>
+<!--
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2000.9-2001.9 以色列Bar-Ilan大学数学系</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2002.3-2002.7 台湾理论科学中心</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2002.9-2003.2 澳大利亚国立大学</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2003.5-2004.6 德国马普数学研究所（莱比锡）</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;  2008.9-2009.6 普林斯顿高等研究院(IAS)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2011.2 意大利佛罗伦萨大学.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2012.2, 2013.1, 2014.7~2014.8 法国高等研究院(IHES)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2016.3-2016.6 美国明尼苏达大学</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 2017.8 加拿大麦吉尔大学</p>
+-->
+</div>
+<hr>
+最近更新 : 2024.2.16</div>
+</body>
+</html>
