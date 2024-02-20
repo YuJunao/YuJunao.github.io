@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!-- 格式，不要修改 -->
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta http-equiv="pragma" content="no-cache" /> 
+  <meta http-equiv="Cache-Control" content="no-store, must-revalidate" /> 
+  <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" /> 
+  <meta http-equiv="expires" content="0" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>GT 2021 Fall</title> 
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all" /> 
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="all" /> 
+  <!--[if lte IE]>
+<script src="js/respond.js"></script>
+<script src="js/html5shiv.js"></script>
+<![endif]--> 
+  <script src="js/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/bootstrap.js" type="text/javascript"></script> 
+ </head> 
+
+    <!--导航，不要修改-->
+ <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs=offset="10"> 
+ <main class="container">
+ <!--
+  <div class="container wrap"> 
+   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="ding" role="navigation"> 
+    <div class="navbar-header"> 
+        <a class="navbar-brand" href="./index.html" style="color:aliceblue;font-weight:bold">操作系统(2021春)</a>
+    </div> 
+    <div class="collapse navbar-collapse"> 
+     <ul class="nav navbar-nav" id="nav_bar"> 
+      <li><a href="#class_info" id="info" class="navitme" style="font-size:16px;letter-spacing: 2px;">课程信息</a></li> 
+      <li><a href="#books" id="book" class="navitme" style="font-size:16px;letter-spacing: 2px;">课程教材</a></li> 
+      <li><a href="#ppt_hw" id="ppt" class="navitme" style="font-size:16px;letter-spacing: 2px;">课件与作业</a></li> 
+      <li><a href="#experiment" id="exp" class="navitme" style="font-size:16px;letter-spacing: 2px;">实验</a></li> 
+     </ul> 
+    </div> 
+   </nav> 
+-->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">图论(2021秋)</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+      <li class="nav-item">
+          <a class="nav-link" href="#inform">通知</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#class_info">课程信息</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href="#hw">作业</a>
+        </li>
+      </ul>
+<!--
+       <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> 
+-->
+    </div>
+  </div>
+</nav>
+   <br /> 
+   <br /> 
+   <br /> 
+   
+<div class="bg-light p-5 rounded">
+  <h1 align="center">图论</h1> 
+   <p  class="lead" align="center"><b>Graph Theory</b></p> 
+   <h3 align="center" color="Gray">2021年秋季学期</h3> 
+</div>
+ <br /> 
+   <br /> 
+   <br /> 
+
+<div id="inform"> 
+   <h3 style="color:red"><b>通知：</b></h3> 
+   <ul class="list-group" style="font-size:18px">  
+<li class="list-group-item"><font color="red">中秋节休假，9.21的课暂停！</font></li>
+<li class="list-group-item"><font color="red">第一次上课时间 9.8下午两点！</font></li>
+
+
+
+
+
+
+
+    <!-- 在这里增加通知 --> 
+   </ul> 
+</div>
+    <!--课程简介-->
+   <div id="class_info"> 
+    <br /> 
+    <br /> 
+   <h3><b>课程信息：</b></h3> 
+   <table class="table table-striped table-bordered text-center" style="font-size:16px"> 
+    <tbody> 
+     <tr> 
+      <td width="40%">课程编号</td> 
+      <td>011040</td> 
+     </tr> 
+     <tr> 
+      <td style="display:table-cell; vertical-align:middle">授课老师</td> 
+      <td>
+        <a title="徐宏力老师主页" href="http://staff.ustc.edu.cn/~xuhongli/" target="_blank">徐宏力</a>&nbsp;&nbsp;Email: xuhongli@ustc.edu.cn
+        <br>
+        <a title="赵功名老师主页" href="http://staff.ustc.edu.cn/~zgm1993/" target="_blank">赵功名</a>&nbsp;&nbsp;Email: gmzhao@ustc.edu.cn
+      </td> 
+     </tr> 
+     <tr> 
+      <td>上课时间</td> 
+      <td>3C203: 2(6,7);3C203: 4(3,4)</td> 
+     </tr> 
+     <tr> 
+      <td>课时安排</td> 
+      <td>60学时</td> 
+     </tr> 
+     <tr> 
+      <td style="display:table-cell; vertical-align:middle">助教信息</td> 
+      <td> 
+       <table align="center"> 
+        <tbody> 
+
+         <tr> 
+          <td>黄炜喆&nbsp;&nbsp;</td> 
+          <td align="left"><a title="" href="mailto:jiyingtk@mail.ustc.edu.cn ">hwz871982879@mail.ustc.edu.cn</a></td> 
+         </tr> 
+
+         <tr> 
+          <td>吴斌浩&nbsp;&nbsp;</td> 
+          <td align="left"><a title="" href="mailto:gesefudi@mail.ustc.edu.cn">binhaowu@qq.com</a></td> 
+         </tr> 
+
+         <tr>
+          <td>高楚晴&nbsp;&nbsp;</td>
+          <td align="left"><a title="" href="mailto:liuzhenm@mail.ustc.edu.cn">1141892453@qq.com</a></td> 
+         </tr>
+
+         <tr>
+          <td>刘佳薇&nbsp;&nbsp;</td>
+          <td align="left"><a title="" href="mailto:ldeng@mail.ustc.edu.cn ">ljw1222@mail.ustc.edu.cn </a></td> 
+         </tr>
+
+
+        </tbody> 
+       </table> </td> 
+     </tr> 
+     <tr> 
+      <td>课程QQ群</td> 
+      <td> <b><a style="color: red">974403886 群名称：2021秋图论</a>（进群验证信息&quot;<a style="color: red">学号+姓名</a>&quot;）</b> </td> 
+     </tr> 
+     <tr> 
+      <td style="display:table-cell; vertical-align:middle">教材</td> 
+      <td> 
+       <table align="center"> 
+        <tbody> 
+
+         <tr> 
+          <td><b>图论导引</b>&nbsp;&nbsp;科学出版社</td> 
+          
+         </tr> 
+
+        </tbody> 
+       </table> </td> 
+     </tr> 
+     <tr> 
+      <td>课程介绍</td> 
+      <td><a href="resources/Introduction.ppt" target="view_window"> Introduction.ppt </a></td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   </div>
+
+
+
+    <!--课件与作业-->
+   <div id="hw"> 
+    <br /> 
+    <br /> 
+   <h3><b>作业</b></h3> 
+   <table align="center" class="table table-striped text-center" style="font-size:16px"> 
+    <tbody> 
+     <tr> 
+      <td width="15%" style="vertical-align:middle"><b>日期</b></td> 
+      <td width="30%" style="vertical-align:middle"><b>内容</b></td> 
+      <td width="20%" style="vertical-align:middle"><b>截止日期</b></td> 
+      <td width="35%" style="vertical-align:middle"><b>参考解答</b></td> 
+     </tr> 
+
+      <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第1次作业(9.9)</td> 
+      <td  style="display:table-cell; vertical-align:middle">Ch1 4,5,8</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        9.14(正常交100%)<br>
+        9.16(补交100%)<br>
+        9.23(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle"> 
+        <a href="resources/hw1_solution.pdf" target="view_window"> 第1次作业参考答案 </a>
+        <br>
+        by 吴斌浩
+      </td> 
+     </tr> 
+    <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第2次作业(9.16)</td> 
+      <td  style="display:table-cell; vertical-align:middle">Ch1 13,16,20,24,25</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        9.23(正常交100%,由于中秋节停课，只有这一次)<br>
+        9.30(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw2_solution.pdf" target="view_window"> 第2次作业参考答案 </a>
+        <br>
+        by 高楚晴
+      </td> 
+     </tr> 
+    <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第3次作业(9.23)</td> 
+      <td  style="display:table-cell; vertical-align:middle">Ch2 2,4,6,7</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        9.28(正常交100%)<br>
+        9.30(补交100%)<br>
+        10.9(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw3_solution.pdf" target="view_window"> 第3次作业参考答案 </a>
+        <br>
+        by 黄炜喆
+      </td> 
+     </tr> 
+    <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第4次作业(9.30)</td> 
+      <td  style="display:table-cell; vertical-align:middle">Ch2 8,13,16,18,21,23,25,27</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        10.9,10.12,10.14(正常交100%,由于国庆假期以及调休)<br>
+        10.21(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw4_solution.pdf" target="view_window"> 第4次作业参考答案 </a>
+        <br>
+        by 刘佳薇
+      </td> 
+     </tr> 
+    <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第5次作业(10.14)</td> 
+      <td  style="display:table-cell; vertical-align:middle">Ch3 1,3,4,5,8,11,15</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        10.19(正常交100%)<br>
+        10.21(补交100%)<br>
+        10.28(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw5_solution.pdf" target="view_window"> 第5次作业参考答案 </a>
+        <br>
+        by 吴斌浩
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第6次作业(10.21)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch3 16,18,20,22<br>
+        Ch4 3,7,12
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        10.26(正常交100%)<br>
+        10.28(补交100%)<br>
+        11.4(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw6_solution.pdf" target="view_window"> 第6次作业参考答案 </a>
+        <br>
+        by 高楚晴
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第7次作业(10.28)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch5 2，4
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        11.2(正常交100%)<br>
+        11.4(补交100%)<br>
+        11.11(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw7_solution.pdf" target="view_window"> 第7次作业参考答案 </a>
+        <br>
+        by 黄炜喆
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第8次作业(11.4)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch5 3,7,11,12,16,19,20
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        学生反应期中考试较多，顺延一周<br>
+        11.16(正常交100%)<br>
+        11.18(补交100%)<br>
+        11.25(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw8_solution.pdf" target="view_window"> 第8次作业参考答案 </a>
+        <br>
+        by 刘佳薇
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第9次作业(11.11)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch6 2,3,6,7,10,14,18,21
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        11.16(正常交100%)<br>
+        11.18(补交100%)<br>
+        11.25(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw9_solution.pdf" target="view_window"> 第9次作业参考答案 </a>
+        <br>
+        by 吴斌浩
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第10次作业(11.18)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch7 2,3,5,6
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        11.23(正常交100%)<br>
+        11.25(补交100%)<br>
+        12.2(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw10_solution.pdf" target="view_window"> 第10次作业参考答案 </a>
+        <br>
+        by 吕瑞
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第11次作业(11.25)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch7 10,11,15,17
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        11.30(正常交100%)<br>
+        12.2(补交100%)<br>
+        12.9(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw11_solution.pdf" target="view_window"> 第11次作业参考答案 </a>
+        <br>
+        by 黄炜喆
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第12次作业(12.2)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch9 1,2(纸质版第2个第2题),3,5,7,9,11,13
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        12.7(正常交100%)<br>
+        12.9(补交100%)<br>
+        12.16(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw12_solution.pdf" target="view_window"> 第12次作业参考答案 </a>
+        <br>
+        by 刘佳薇
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第13次作业(12.9)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch9 15,17,19
+        Ch10 3,4
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        12.14(正常交100%)<br>
+        12.16(补交100%)<br>
+        12.23(最迟交60%)
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw13_solution.pdf" target="view_window"> 第13次作业参考答案 </a>
+        <br>
+        by 吴斌浩
+      </td> 
+     </tr> 
+     <tr> 
+      <td  style="display:table-cell; vertical-align:middle">第14次作业(12.14)</td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        Ch10 6,8,10
+      </td> 
+      <td  style="display:table-cell; vertical-align:middle">
+        不用交
+      </td  style="display:table-cell; vertical-align:middle"> 
+      <td  style="display:table-cell; vertical-align:middle">
+        <a href="resources/hw14_solution.pdf" target="view_window"> 第14次作业参考答案 </a>
+        <br>
+        by 吕瑞
+      </td> 
+     </tr> 
+<!--
+      <tr> 
+      <td>第1周(3.9/3.11)</td> 
+      <td>Course Introduction <br> OS Introduction</td> 
+      <td> <a href="ppt/ch0.pdf" target="view_window">ch0.pdf </a><br><a href="ppt/ch1.pdf" target="view_window">ch1.pdf </a></td> 
+      <td> </td> 
+     </tr> 
+-->
+
+
+<!--
+      <tr> 
+      <td> &nbsp;</td> 
+      <td> &nbsp;</td> 
+      <td> &nbsp; </td> 
+      <td> &nbsp; </td> 
+     </tr> 
+-->
+
+
+
+  
+
+     <!--在这里添加课件与作业-->
+    </tbody> 
+   </table> 
+   </div>
+
+
+
+
+ 
+
+
+  </div>
+  <br /> 
+  <br /> 
+
+</main>
+ </body>
+</html>
